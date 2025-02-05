@@ -1,6 +1,6 @@
 [project]
 name = "backstage-simple-client"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple client for Backstage developer portal"
 authors = [
     {name = "Tomasz Habiger", email = "tomasz.habiger@gmail.com"}
@@ -25,7 +25,7 @@ pytest = "^8.3.4"
 bumpver = "^2021"
 
 [tool.bumpver]
-current_version = "0.1.0"
+current_version = "0.1.1"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 commit = true
