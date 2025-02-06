@@ -29,6 +29,7 @@ class EntityMetadata(BaseModel):
 class EntitySpec(BaseModel):
     type: Optional[str] = None
     lifecycle: Optional[str] = None
+    owner: Optional[str] = None
 
     model_config = ConfigDict(arbitrary_types_allowed = False)
 
