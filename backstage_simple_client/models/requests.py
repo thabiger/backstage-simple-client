@@ -24,7 +24,6 @@ class SearchEntityQueryParams(BaseModel):
     def check_mutually_exclusive(cls, values: Dict[str, Any]) -> Dict[str, Any]:
         test_mutually_exclusive([
             {'filter', 'full_text_filter'},
-            {'filters', 'full_text_filter'},
         ], values)
 
         return values

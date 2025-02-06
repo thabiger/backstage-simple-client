@@ -47,7 +47,7 @@ for entity in entities.items:
 
 ```
 entities = client.search_entities(
-    filters = [
+    filter = [
         Filter(kind='component', metadata_namespace='development'),
         Filter(kind='user')
     ]
